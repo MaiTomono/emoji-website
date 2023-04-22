@@ -125,7 +125,7 @@ $(function(){
 		},
 
 		data: {
-			csvURL: '../Emoji2/data/Numberofemojibyyear.csv',
+			csvURL: '../data/Numberofemojibyyear.csv',
 			beforeParse: function (csv) {
 				return csv.replace(/\n\n/g, '\n');
 			}
